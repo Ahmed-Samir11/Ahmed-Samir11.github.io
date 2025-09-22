@@ -9,14 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Ahmed Samir · Machine Learning Engineer  
-+201118302763 · ahmedsamir1598@gmail.com  
-https://github.com/Ahmed-Samir11 · https://www.linkedin.com/in/ahmed-samir-fcai-cu · https://www.kaggle.com/ahmedsamir1598
-
-Summary
-======
-Kaggle Competitions Expert with ~2 years of research experience and industry experience in AI. Focus on computer vision, ML engineering, and building end-to-end ML systems.
-
 Education
 ======
 * **B.Sc. in Computers and Artificial Intelligence**, Faculty of Computers and Artificial Intelligence, Cairo University — Sep 2023 – Jun 2027
@@ -76,7 +68,9 @@ Awards & Honors
 ======
 * 1st place — Alexandria Quantum Computing Hackathon.  
 * 1st place — HERE Technologies Hackathon (recruitment → internship).  
-* 2nd place — AIMS QTEdu Quantathon (with QEnergic).  
+* 2nd place — AIMS QTEdu Quantathon (with QEnergic).
+* Bronze Medal in Kaggle Image Matching Challenge 2025.
+* Bronze Medal in Kaggle BirdCLEF+ 2025.
 * Top placements / prizes in Fawry competition and NU UGRF recognition.
 
 Technical Skills & Certifications
