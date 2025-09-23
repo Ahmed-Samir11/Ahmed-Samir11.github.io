@@ -10,3 +10,24 @@ redirect_from:
 My name is Ahmed Samir, and I am a third year at the Faculty of Computers and Artificial Intelligence. I specialize in AI, but beyond that, I am generally interested in STEM fields.
 
 I am a researcher at the Scientific Research School of Egypt, supervised by [Prof. Aboul Ella Hassanien](https://scholar.google.com/citations?user=aZ6bcngAAAAJ&hl=en), where I am working on developing machine learning algorithms.
+
+## My Journey in Photos
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    <img src="/images/aims-quantathon.jpg" alt="AIMS Quantathon" style="width:100%; border-radius:10px;">
+    <p><b>AIMS Quantathon</b><br/>Represented SRSEG — placed 2nd globally.</p>
+  </div>
+
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    <img src="/images/alex-quantum-hackathon.jpg" alt="Alex Hackathon" style="width:100%; border-radius:10px;">
+    <p><b>Alex Quantum Computing Hackathon</b><br/>1st place — highlighted research and teamwork.</p>
+  </div>
+
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    <img src="/images/nti-training.jpg" alt="NTI Training" style="width:100%; border-radius:10px;">
+    <p><b>NTI Training</b><br/>Created video explanations for AI training sessions.</p>
+  </div>
+
+</div>
