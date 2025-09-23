@@ -16,12 +16,12 @@ I am a researcher at the Scientific Research School of Egypt, supervised by [Pro
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="/images/aims-quantathon.jpg" alt="AIMS Quantathon" style="width:100%; border-radius:10px;">
+    <img src="/images/aims-quantathon.jpeg" alt="AIMS Quantathon" style="width:100%; border-radius:10px;">
     <p><b>AIMS Quantathon</b><br/>Represented SRSEG — placed 2nd globally.</p>
   </div>
 
   <div style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="/images/alex-quantum-hackathon.jpg" alt="Alex Hackathon" style="width:100%; border-radius:10px;">
+    <img src="/images/alex-quantum-hackathon.webp" alt="Alex Hackathon" style="width:100%; border-radius:10px;">
     <p><b>Alex Quantum Computing Hackathon</b><br/>1st place — highlighted research and teamwork.</p>
   </div>
 
