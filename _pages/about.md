@@ -17,17 +17,17 @@ I am a researcher at the Scientific Research School of Egypt, supervised by [Pro
 
   <div style="flex: 1; min-width: 250px; text-align: center;">
     <img src="/images/aims-quantathon.jpeg" alt="AIMS Quantathon" style="width:100%; border-radius:10px;">
-    <p><b>AIMS Quantathon</b><br/>Represented SRSEG — placed 2nd globally.</p>
+    <p><b>AIMS Quantathon</b><br/>2nd place in the Quantathon held at the African Institute of Mathematical Sciences, Ghana.</p>
   </div>
 
   <div style="flex: 1; min-width: 250px; text-align: center;">
     <img src="/images/alex-quantum-hackathon.webp" alt="Alex Hackathon" style="width:100%; border-radius:10px;">
-    <p><b>Alex Quantum Computing Hackathon</b><br/>1st place — highlighted research and teamwork.</p>
+    <p><b>Alex Quantum Computing Hackathon</b><br/>1st place at Alexandria Quantum Computing Hackathon.</p>
   </div>
 
   <div style="flex: 1; min-width: 250px; text-align: center;">
     <img src="/images/nti-training.jpg" alt="NTI Training" style="width:100%; border-radius:10px;">
-    <p><b>NTI Training</b><br/>Created video explanations for AI training sessions.</p>
+    <p><b>NTI Training</b><br/>Graduation project presentation at the National Telecommunications Institute.</p>
   </div>
 
 </div>
