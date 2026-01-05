@@ -94,11 +94,11 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 230px; // increased so avatar occupies more space on wide screens
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
+      padding: 8px;                       // slightly larger frame padding
       border: 1px solid var(--global-border-color);
     }
   }
