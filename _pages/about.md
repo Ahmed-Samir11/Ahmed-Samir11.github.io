@@ -14,7 +14,20 @@ I am a researcher at [the Scientific Research School of Egypt(SRSEG)](https://eg
 ## My Journey in Photos
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    <img src="/images/HERE.jpg" alt="HERE Technologies" style="width:100%; border-radius:10px;">
+    <p><b>HERE Technologies</b><br/>1st place at HERE Technologies, followed by internship recruitment.</p>
+  </div>
 
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    <img src="/images/NASA%20Space%20Apps.jpg" alt="NASA Space Apps" style="width:100%; border-radius:10px;">
+    <p><b>NASA Space Apps</b><br/>Global Nomination out of +700 Teams at NASA Space Apps - Cairo Event.</p>
+  </div>
+
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    <img src="/images/Cairo_AI_Hackathon1.png" alt="Cairo AI Hackathon" style="width:100%; border-radius:10px;">
+    <p><b>Cairo AI Hackathon</b><br/>3rd place at Cairo AI Hackathon for Enterprenuership.</p>
+  </div>
   <div style="flex: 1; min-width: 250px; text-align: center;">
     <img src="/images/aims-quantathon.jpeg" alt="AIMS Quantathon" style="width:100%; border-radius:10px;">
     <p><b>AIMS Quantathon</b><br/>2nd place in the Quantathon held at the African Institute of Mathematical Sciences, Ghana.</p>
@@ -29,5 +42,4 @@ I am a researcher at [the Scientific Research School of Egypt(SRSEG)](https://eg
     <img src="/images/nti-training.jpg" alt="NTI Training" style="width:100%; border-radius:10px;">
     <p><b>NTI Training</b><br/>Graduation project presentation at the National Telecommunications Institute.</p>
   </div>
-
 </div>
