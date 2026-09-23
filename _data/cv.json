@@ -5,7 +5,7 @@
     "email": "ahmedsamir1598@gmail.com",
     "phone": "+20 111 830 2763",
     "website": "https://ahmed-samir11.github.io",
-    "summary": "Undergraduate AI Researcher specializing in Computer Vision, 3D Spatial Reasoning, and Quantum Machine Learning. Kaggle Competitions Expert (currently ranked 2nd nationally in Egypt) with a proven track record of multiple international hackathon victories and peer-reviewed research.",
+    "summary": "Undergraduate AI Researcher specializing in Computer Vision, 3D Spatial Reasoning, and Quantum Machine Learning. Kaggle Competitions Expert (peak global ranking of 768th, currently ranked 2nd nationally in Egypt) with a proven track record of multiple international hackathon victories and peer-reviewed research.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -28,6 +28,11 @@
         "network": "Kaggle",
         "username": "ahmedsamir1598",
         "url": "https://www.kaggle.com/ahmedsamir1598"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "ZcEPiLcAAAAJ",
+        "url": "https://scholar.google.com/citations?user=ZcEPiLcAAAAJ"
       }
     ]
   },
@@ -151,47 +156,11 @@
       "name": "QUBO Model for Energy Planning: Quantum-Enhanced Microgrid Optimization for Rural Electrification in Africa",
       "publisher": "In Proceedings of GECCO 2026: Quantum Optimization Workshop — Farhani, Y., Fah, H. R. M., Samir, A., Adam, M. Y. E., Mulila, K. M. & Osumanu, A.",
       "releaseDate": "2026-01-01",
-      "website": "",
+      "website": "https://dl.acm.org/doi/10.1145/3795101.3814703",
       "summary": "Quantum-Enhanced Microgrid Optimization using a QUBO model."
-    },
-    {
-      "name": "Optimization of the Evasive-PDFMal Dataset with a Stacking Classifier",
-      "publisher": "Accepted at IUGRC-8 (International Undergraduate Research Conference) — Z. Abdelfattah and A. Samir",
-      "releaseDate": "2024-01-01",
-      "website": "",
-      "summary": ""
     }
   ],
   "presentations": [],
   "teaching": [],
-  "portfolio": [
-    {
-      "name": "Image Matching Challenge 2025 (Kaggle Bronze Medal)",
-      "category": "3D Reconstruction & Point Cloud Generation Pipeline",
-      "date": "2025-01-01",
-      "url": "",
-      "description": "Scalable 3D reconstruction pipeline using DINOv2 global descriptors, ALIKED local keypoints, and LightGlue feature matching."
-    },
-    {
-      "name": "Roboflow DETR (rf-detr) Core Contribution",
-      "category": "Open Source Feature Developer",
-      "date": "2026-01-01",
-      "url": "",
-      "description": "Strict Pydantic configuration validation and a custom configuration base class with unit tests for the official Roboflow DETR repository."
-    },
-    {
-      "name": "QuYAML: A Token-Efficient Quantum Circuit Standard",
-      "category": "Python Parser for AI-Driven Quantum Development",
-      "date": "2025-01-01",
-      "url": "",
-      "description": "Token-efficient quantum circuit format (73% fewer tokens than Qiskit JSON) with the official Python parser (v0.2) and a 100%-coverage metamorphic test suite (QFT, VQE)."
-    },
-    {
-      "name": "RbT: Return by Train",
-      "category": "KAN with Self-Improving Loop",
-      "date": "2025-01-01",
-      "url": "",
-      "description": "Kolmogorov-Arnold Network for time series forecasting with a Darwin Gödel Machine-inspired self-improving loop. Top 15% innovation at the 20th NU UGRF (800+ projects, 10+ countries)."
-    }
-  ]
+  "portfolio": []
 }

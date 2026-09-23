@@ -11,9 +11,9 @@ redirect_from:
 
 **Ahmed Samir** — AI Engineer  
 📞 +20 111 830 2763 • 📧 [ahmedsamir1598@gmail.com](mailto:ahmedsamir1598@gmail.com)  
-[GitHub](https://github.com/Ahmed-Samir11) • [LinkedIn](https://www.linkedin.com/in/ahmed-samir-fcai-cu) • [Kaggle](https://www.kaggle.com/ahmedsamir1598)
+[Google Scholar](https://scholar.google.com/citations?user=ZcEPiLcAAAAJ) • [GitHub](https://github.com/Ahmed-Samir11) • [LinkedIn](https://www.linkedin.com/in/ahmed-samir-fcai-cu) • [Kaggle](https://www.kaggle.com/ahmedsamir1598)
 
-Undergraduate AI Researcher specializing in Computer Vision, 3D Spatial Reasoning, and Quantum Machine Learning. Kaggle Competitions Expert (currently ranked 2nd nationally in Egypt) with a proven track record of multiple international hackathon victories and peer-reviewed research.
+Undergraduate AI Researcher specializing in Computer Vision, 3D Spatial Reasoning, and Quantum Machine Learning. Kaggle Competitions Expert (peak global rank 768th, currently ranked 2nd nationally in Egypt) with a proven track record of multiple international hackathon victories and peer-reviewed research.
 
 Education
 ======
@@ -24,8 +24,7 @@ Education
 
 Publications
 ======
-* Farhani, Y., Fah, H. R. M., Samir, A., Adam, M. Y. E., Mulila, K. M. & Osumanu, A. *QUBO Model for Energy Planning: Quantum-Enhanced Microgrid Optimization for Rural Electrification in Africa.* In Proceedings of GECCO 2026: Quantum Optimization Workshop, 2026.
-* Z. Abdelfattah and A. Samir. *Optimization of the Evasive-PDFMal Dataset with a Stacking Classifier.* Accepted at IUGRC-8 (International Undergraduate Research Conference), 2024.
+* Farhani, Y., Fah, H. R. M., Samir, A., Adam, M. Y. E., Mulila, K. M. & Osumanu, A. *QUBO Model for Energy Planning: Quantum-Enhanced Microgrid Optimization for Rural Electrification in Africa.* In Proceedings of GECCO 2026: Quantum Optimization Workshop, 2026. [Paper](https://dl.acm.org/doi/10.1145/3795101.3814703)
 
 Research & Professional Experience
 ======

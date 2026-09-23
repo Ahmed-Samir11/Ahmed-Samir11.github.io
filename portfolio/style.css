@@ -1373,3 +1373,17 @@ body.light-theme .project-points li {
 body.light-theme .education-card p.education-extra {
     color: var(--text-light-secondary);
 }
+
+/* ===== PUBLICATION LINKS ===== */
+.publication-venue a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.publication-venue a:hover {
+    text-decoration: underline;
+}
+
+body.light-theme .publication-venue a {
+    color: var(--accent-color-light);
+}

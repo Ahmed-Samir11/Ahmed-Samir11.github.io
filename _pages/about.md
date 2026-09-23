@@ -9,7 +9,9 @@ redirect_from:
 
 My name is Ahmed Samir, and I am a fourth-year student at the Faculty of Computers and Artificial Intelligence (expected graduation: Jun 2027). I specialize in AI — particularly Computer Vision, 3D Spatial Reasoning, and Quantum Machine Learning — and I am currently an AI Engineer.
 
-I am a researcher at [the Scientific Research School of Egypt(SRSEG)](https://egyptscience-srge.com/), where I engineered and trained 3+ YOLO variants with novel backbones (Swin Transformer, CBAM) for Dentist X-Ray Object Detection, achieving a new state-of-the-art mAP of **95.5%**. I am also a Kaggle Competitions Expert, currently ranked **2nd nationally in Egypt**.
+I am a **Kaggle Competitions Expert** with a peak global ranking of **768th**, and I am currently ranked **2nd nationally in Egypt**. My Kaggle medals span computer vision, biology, and time-series forecasting — including the Image Matching Challenge (a 3D reconstruction pipeline built on DINOv2, ALIKED, and LightGlue), BirdCLEF+, CAFA 6 Protein Function Prediction, and CIMBTR (Top 10%).
+
+You can find me on [Google Scholar](https://scholar.google.com/citations?user=ZcEPiLcAAAAJ), [GitHub](https://github.com/Ahmed-Samir11), [LinkedIn](https://www.linkedin.com/in/ahmed-samir-fcai-cu), and [Kaggle](https://www.kaggle.com/ahmedsamir1598).
 
 ## My Journey in Photos
 

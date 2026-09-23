@@ -26,16 +26,16 @@ author:
   avatar           : "profile.png"
   name             : "Ahmed Samir"
   pronouns         : # example: "she/her"  
-  bio              : "AI Engineer & Undergraduate AI Researcher at FCAI, Cairo University — Kaggle Competitions Expert (2nd nationally in Egypt)"
+  bio              : "AI Engineer & Undergraduate AI Researcher at FCAI, Cairo University — Kaggle Competitions Expert (peak global rank 768th, 2nd nationally in Egypt)"
   location         : "Cairo, Egypt"
-  employer         : "Cairo University / SRSEG"
+  employer         : "Faculty of Computers & AI, Cairo University"
   uri              : # URL
   email            : "ahmedsamir1598@gmail.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=ZcEPiLcAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : 
