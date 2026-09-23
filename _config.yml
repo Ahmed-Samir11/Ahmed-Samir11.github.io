@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Ahmed Samir"
 title_separator          : "-"
 name                     : &name "Ahmed Samir"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ahmed Samir — AI Engineer & Undergraduate AI Researcher (Computer Vision, 3D Spatial Reasoning, Quantum ML)"
 url                      : https://ahmed-samir11.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,8 +26,8 @@ author:
   avatar           : "profile.png"
   name             : "Ahmed Samir"
   pronouns         : # example: "she/her"  
-  bio              : 
-  location         : 
+  bio              : "AI Engineer & Undergraduate AI Researcher at FCAI, Cairo University — Kaggle Competitions Expert (2nd nationally in Egypt)"
+  location         : "Cairo, Egypt"
   employer         : "Cairo University / SRSEG"
   uri              : # URL
   email            : "ahmedsamir1598@gmail.com" 

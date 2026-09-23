@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ahmed Samir - CV">
+    <title>Ahmed Samir - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #ffffff;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #009966;
+            padding-bottom: 20px;
+        }
+
+        .name {
+            font-size: 32px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #009966;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 13px;
+        }
+
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section */
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: white;
+            background: #009966;
+            padding: 10px 15px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .education-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        .degree {
+            font-weight: 700;
+            font-size: 14px;
+            color: #1a1a1a;
+        }
+
+        .institution {
+            color: #009966;
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+        .duration {
+            color: #666;
+            font-size: 12px;
+        }
+
+        /* Experience */
+        .experience-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .experience-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        .job-title {
+            font-weight: 700;
+            font-size: 14px;
+            color: #1a1a1a;
+            margin-bottom: 3px;
+        }
+
+        .company {
+            color: #009966;
+            font-weight: 600;
+            font-size: 13px;
+            margin-bottom: 3px;
+        }
+
+        .job-duration {
+            color: #666;
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+
+        .job-description {
+            font-size: 13px;
+            color: #333;
+            margin-left: 20px;
+        }
+
+        .job-description li {
+            list-style: none;
+            margin-bottom: 5px;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .job-description li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #009966;
+        }
+
+        /* Skills */
+        .skills-category {
+            margin-bottom: 15px;
+        }
+
+        .skills-category-title {
+            font-weight: 700;
+            color: #1a1a1a;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-item {
+            background: #f0f0f0;
+            border: 1px solid #009966;
+            color: #009966;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        /* Awards */
+        .award-item {
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .award-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        .award-title {
+            font-weight: 700;
+            color: #1a1a1a;
+            font-size: 13px;
+            margin-bottom: 3px;
+        }
+
+        .award-description {
+            color: #666;
+            font-size: 12px;
+        }
+
+        /* Publications */
+        .publication-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .publication-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        .publication-title {
+            font-weight: 700;
+            color: #1a1a1a;
+            font-size: 13px;
+            margin-bottom: 3px;
+        }
+
+        .publication-authors {
+            color: #009966;
+            font-weight: 600;
+            font-size: 12px;
+            margin-bottom: 2px;
+        }
+
+        .publication-venue {
+            color: #666;
+            font-size: 12px;
+        }
+
+        /* Two Column Layout */
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                max-width: 100%;
+                padding: 0;
+                box-shadow: none;
+            }
+
+            a {
+                color: #0066cc;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            .name {
+                font-size: 24px;
+            }
+
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Home Button -->
+        <div style="margin-bottom: 20px;">
+            <a href="index.html" style="display: inline-block; background: #009966; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 14px; transition: background 0.3s ease;">← Back to Home</a>
+        </div>
+
+        <!-- Header -->
+        <div class="header">
+            <div class="name">Ahmed Samir</div>
+            <div class="title">AI Engineer</div>
+            <p style="font-size: 13px; color: #333; margin-bottom: 15px;">
+                Undergraduate AI Researcher specializing in Computer Vision, 3D Spatial Reasoning, and Quantum Machine Learning. Kaggle Competitions Expert (ranked 2nd nationally in Egypt) with a proven track record of multiple international hackathon victories and peer-reviewed research.
+            </p>
+            <div class="contact-info">
+                <span>📞 <a href="tel:+201118302763">+20 111 830 2763</a></span>
+                <span>📧 <a href="mailto:ahmedsamir1598@gmail.com">ahmedsamir1598@gmail.com</a></span>
+                <span>🔗 <a href="https://github.com/Ahmed-Samir11" target="_blank">github.com/Ahmed-Samir11</a></span>
+                <span>💼 <a href="https://www.linkedin.com/in/ahmed-samir-fcai-cu" target="_blank">LinkedIn</a></span>
+                <span>🎯 <a href="https://kaggle.com/ahmedsamir1598" target="_blank">Kaggle: ahmedsamir1598</a></span>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <div class="degree">Bachelor of Computers and Artificial Intelligence, Major in AI</div>
+                <div class="institution">Faculty of Computers and Artificial Intelligence, Cairo University</div>
+                <div class="duration">Expected: Jun 2027</div>
+                <p style="font-size: 12px; color: #555; margin-top: 6px;">
+                    Relevant Coursework: Algorithms Analysis and Design, Supervised Learning, Autonomous Multiagent Systems, Processing of Formal and Natural Languages, Reasoning and Knowledge Representation.
+                </p>
+            </div>
+            <div class="education-item">
+                <div class="degree">STEM High School for Boys – 6th of October</div>
+                <div class="institution">Physics Club President • Math Circle Vice President</div>
+                <div class="duration">Graduation: Jun 2023</div>
+                <p style="font-size: 12px; color: #555; margin-top: 6px;">Author of a Thermodynamics Course Book.</p>
+            </div>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="section">
+            <div class="section-title">Research &amp; Professional Experience</div>
+
+            <div class="experience-item">
+                <div class="job-title">Data Scientist Intern at EFG Hermes</div>
+                <div class="company">On-site, Egypt</div>
+                <div class="job-duration">Aug 2026 – Sep 2026</div>
+                <ul class="job-description">
+                    <li>Engineered High Frequency Trading Algorithms using Reinforcement Learning.</li>
+                    <li>Designed the state-action space and reward functions for financial market environments.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">Researcher at The Scientific Research School of Egypt (SRSEG)</div>
+                <div class="company">Remote</div>
+                <div class="job-duration">Dec 2024 – Apr 2026</div>
+                <ul class="job-description">
+                    <li>Engineered and trained 3+ YOLO variants with novel backbones (Swin Transformer, CBAM) for Dentist X-Ray Object Detection, achieving a new state-of-the-art mAP of 95.5%.</li>
+                    <li>Actively participate in weekly research meetings and webinars, presenting findings and shaping new research directions.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">Data Scientist Intern at HERE Technologies</div>
+                <div class="company">Hybrid</div>
+                <div class="job-duration">Sep 2025 – Dec 2025</div>
+                <ul class="job-description">
+                    <li>Recruited into an internship following a 1st place win in the HERE Technologies Hackathon.</li>
+                    <li>Worked on geospatial data with different database engines.</li>
+                    <li>Worked with AWS services, Docker, and Linux.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">ML &amp; NLP Trainee at National Telecommunication Institute</div>
+                <div class="company">Egypt</div>
+                <div class="job-duration">Feb 2025 – Jul 2025</div>
+                <ul class="job-description">
+                    <li>Completed an intensive program in ML, DL, Agentic AI, and RAG on Huawei AI platforms.</li>
+                    <li>Achieved a notebook bronze medal in the CIMBTR Kaggle competition (Top 10%) as part of the graduation project.</li>
+                    <li>Developed an educational tool using RAG and Agentic AI to assist math teachers in identifying student misconceptions.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">Quantum Mechanics Student Researcher at Oberlin College</div>
+                <div class="company">Remote</div>
+                <div class="job-duration">Mar 2023 – Jul 2023</div>
+                <ul class="job-description">
+                    <li>Awarded Full Scholarship &amp; a copy of the e-book "Where Research Begins".</li>
+                    <li>Researched double donor semiconductor Tellurium and wrote a 19-page paper.</li>
+                    <li>Graded A, awarded 2 credit hours transferable to my college transcript, and evaluated as top 5% by Prof. Adhikari (assistant professor at Colgate University and PhD from Amherst College).</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Technical Projects -->
+        <div class="section">
+            <div class="section-title">Technical Projects</div>
+
+            <div class="experience-item">
+                <div class="job-title">Image Matching Challenge 2025 (Kaggle Bronze Medal)</div>
+                <div class="company">3D Reconstruction &amp; Point Cloud Generation Pipeline</div>
+                <div class="job-duration">2025</div>
+                <ul class="job-description">
+                    <li>Engineered a scalable 3D reconstruction pipeline utilizing DINOv2 to extract global image descriptors, optimizing image pairing via similarity thresholding to bypass expensive exhaustive matching.</li>
+                    <li>Implemented ALIKED to detect high-density local keypoints and integrated LightGlue for robust, high-accuracy feature matching across shortlisted image pairs.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">Roboflow DETR (rf-detr) Core Contribution</div>
+                <div class="company">Open Source Feature Developer</div>
+                <div class="job-duration">2026</div>
+                <ul class="job-description">
+                    <li>Engineered strict configuration validation using Pydantic for the official Roboflow DETR repository, preventing silent model misconfigurations.</li>
+                    <li>Implemented a custom configuration base class and unit tests to catch parameter typos, ensuring reliable fine-tuned weight loading for production users.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">QuYAML: A Token-Efficient Quantum Circuit Standard</div>
+                <div class="company">Python Parser for AI-Driven Quantum Development</div>
+                <div class="job-duration">2025</div>
+                <ul class="job-description">
+                    <li>Designed a human-readable, token-efficient format (73% fewer tokens than Qiskit JSON) for quantum circuits, optimized for LLMs.</li>
+                    <li>Developed the official Python parser (v0.2) to convert .quyaml files into executable Qiskit QuantumCircuit objects.</li>
+                    <li>Engineered a comprehensive test suite (100% coverage) using metamorphic testing to ensure mathematical correctness (unitary equivalence) for complex algorithms (QFT, VQE).</li>
+                    <li>Benchmarked against OpenQASM and JSON, demonstrating 73% token reduction vs. JSON.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">RbT: Return by Train</div>
+                <div class="company">Using Kolmogorov-Arnold Network with Self-Improving Loop</div>
+                <div class="job-duration">2025</div>
+                <ul class="job-description">
+                    <li>Top 15% in innovation and creativity among 800+ projects from 10+ countries at the 20th NU UGRF.</li>
+                    <li>Implemented a Kolmogorov-Arnold Network (KAN) for time series forecasting.</li>
+                    <li>Designed a self-improving feedback loop (inspired by the Darwin Gödel Machine) to allow the model to retrain and adapt as new data arrives.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Awards & Competitions -->
+        <div class="section">
+            <div class="section-title">Awards &amp; Competitions</div>
+
+            <div class="award-item">
+                <div class="award-title">Faculty Nominee — Caspian Cup 2026 (Azerbaijan)</div>
+                <div class="award-description">Selected by the Faculty of Computers and AI to represent Cairo University internationally • 2026</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-title">3rd Place Regionally — WIDS Hackathon</div>
+                <div class="award-description">2026</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-title">Kaggle Bronze Medal — CAFA 6 Protein Function Prediction</div>
+                <div class="award-description">2026</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-title">Global Nominee — NASA Space Apps</div>
+                <div class="award-description">2025</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-title">1st Place — Alexandria Quantum Hackathon</div>
+                <div class="award-description">2025</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-title">1st Place — HERE Technologies Hackathon</div>
+                <div class="award-description">2025</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-title">2nd Place — Quantathon, AIMS Ghana</div>
+                <div class="award-description">2025</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-title">2nd Place — Fawry AI Rising Gen</div>
+                <div class="award-description">2025</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-title">3rd Place — Cairo AI Hackathon</div>
+                <div class="award-description">2025</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-title">Kaggle Bronze Medal — Image Matching Challenge</div>
+                <div class="award-description">2025</div>
+            </div>
+
+            <div class="award-item">
+                <div class="award-title">Kaggle Bronze Medal — BirdCLEF+</div>
+                <div class="award-description">2025</div>
+            </div>
+        </div>
+
+        <!-- Technical Skills & Certifications -->
+        <div class="section">
+            <div class="section-title">Technical Skills &amp; Certifications</div>
+
+            <div class="skills-category">
+                <div class="skills-category-title">Languages &amp; Libraries</div>
+                <div class="skills-list">
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">Qiskit</div>
+                    <div class="skill-item">PennyLane</div>
+                    <div class="skill-item">PyTorch</div>
+                    <div class="skill-item">scikit-learn</div>
+                    <div class="skill-item">Pandas</div>
+                    <div class="skill-item">NumPy</div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <div class="skills-category-title">Cloud &amp; DevOps</div>
+                <div class="skills-list">
+                    <div class="skill-item">AWS</div>
+                    <div class="skill-item">Docker</div>
+                    <div class="skill-item">Kubernetes</div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <div class="skills-category-title">Certifications</div>
+                <div class="skills-list">
+                    <div class="skill-item">Huawei HCIA-AI</div>
+                    <div class="skill-item">GitHub Foundations</div>
+                    <div class="skill-item">QSilver</div>
+                    <div class="skill-item">QNickle</div>
+                    <div class="skill-item">QBronze</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Publications -->
+        <div class="section">
+            <div class="section-title">Publications</div>
+
+            <div class="publication-item">
+                <div class="publication-title">QUBO Model for Energy Planning: Quantum-Enhanced Microgrid Optimization for Rural Electrification in Africa</div>
+                <div class="publication-authors">Farhani, Y., Fah, H. R. M., Samir, A., Adam, M. Y. E., Mulila, K. M. &amp; Osumanu, A.</div>
+                <div class="publication-venue">In Proceedings of GECCO 2026: Quantum Optimization Workshop, 2026</div>
+            </div>
+
+            <div class="publication-item">
+                <div class="publication-title">Optimization of the Evasive-PDFMal Dataset with a Stacking Classifier</div>
+                <div class="publication-authors">Z. Abdelfattah and A. Samir</div>
+                <div class="publication-venue">Accepted at IUGRC-8 (International Undergraduate Research Conference), 2024</div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 2px solid #009966; font-size: 11px; color: #999; text-align: center;">
+            <p>Last Updated: September 2026</p>
+            <p style="font-size: 10px; margin-top: 10px;">For the latest information, visit: <a href="https://ahmed-samir11.github.io" style="color: #0066cc; text-decoration: none;">ahmed-samir11.github.io</a></p>
+        </div>
+    </div>
+</body>
+</html>

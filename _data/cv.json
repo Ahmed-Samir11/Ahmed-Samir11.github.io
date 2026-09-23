@@ -1,152 +1,197 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Ahmed Samir",
+    "label": "AI Engineer",
+    "email": "ahmedsamir1598@gmail.com",
+    "phone": "+20 111 830 2763",
+    "website": "https://ahmed-samir11.github.io",
+    "summary": "Undergraduate AI Researcher specializing in Computer Vision, 3D Spatial Reasoning, and Quantum Machine Learning. Kaggle Competitions Expert (currently ranked 2nd nationally in Egypt) with a proven track record of multiple international hackathon victories and peer-reviewed research.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Cairo",
+      "countryCode": "EG",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Ahmed-Samir11",
+        "url": "https://github.com/Ahmed-Samir11"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "ahmed-samir-fcai-cu",
+        "url": "https://www.linkedin.com/in/ahmed-samir-fcai-cu"
+      },
+      {
+        "network": "Kaggle",
+        "username": "ahmedsamir1598",
+        "url": "https://www.kaggle.com/ahmedsamir1598"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "position": "Data Scientist Intern",
+      "company": "EFG Hermes (On-site)",
+      "startDate": "2026-08",
+      "endDate": "2026-09",
+      "highlights": [
+        "Engineered High Frequency Trading Algorithms using Reinforcement Learning.",
+        "Designed the state-action space and reward functions for financial market environments."
+      ]
+    },
+    {
+      "position": "Researcher",
+      "company": "The Scientific Research School of Egypt (SRSEG) (Remote)",
+      "startDate": "2024-12",
+      "endDate": "2026-04",
+      "highlights": [
+        "Engineered and trained 3+ YOLO variants with novel backbones (Swin Transformer, CBAM) for Dentist X-Ray Object Detection, achieving a new state-of-the-art mAP of 95.5%.",
+        "Actively participate in weekly research meetings and webinars, presenting findings and shaping new research directions."
+      ]
+    },
+    {
+      "position": "Data Scientist Intern",
+      "company": "HERE Technologies (Hybrid)",
+      "startDate": "2025-09",
+      "endDate": "2025-12",
+      "highlights": [
+        "Recruited into an internship following a 1st place win in the HERE Technologies Hackathon.",
+        "Worked on geospatial data with different database engines.",
+        "Worked with AWS services, Docker, and Linux."
+      ]
+    },
+    {
+      "position": "ML & NLP Trainee",
+      "company": "National Telecommunication Institute",
+      "startDate": "2025-02",
+      "endDate": "2025-07",
+      "highlights": [
+        "Completed an intensive program in ML, DL, Agentic AI, and RAG on Huawei AI platforms.",
+        "Achieved a notebook bronze medal in the CIMBTR Kaggle competition (Top 10%) as part of the graduation project.",
+        "Developed an educational tool using RAG and Agentic AI to assist math teachers in identifying student misconceptions."
+      ]
+    },
+    {
+      "position": "Quantum Mechanics Student Researcher",
+      "company": "Oberlin College (Remote)",
+      "startDate": "2023-03",
+      "endDate": "2023-07",
+      "highlights": [
+        "Awarded Full Scholarship & a copy of the e-book \"Where Research Begins\".",
+        "Researched double donor semiconductor Tellurium and wrote a 19-page paper.",
+        "Graded A, awarded 2 transferable credit hours, and evaluated as top 5% by Prof. Adhikari (Colgate University)."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Faculty of Computers and Artificial Intelligence, Cairo University",
+      "area": "Bachelor of Computers and Artificial Intelligence, Major in AI",
+      "studyType": "B.Sc.",
+      "startDate": "2023-09",
+      "endDate": "Expected: 2027-06",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Algorithms Analysis and Design",
+        "Supervised Learning",
+        "Autonomous Multiagent Systems",
+        "Processing of Formal and Natural Languages",
+        "Reasoning and Knowledge Representation"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "STEM High School for Boys - 6th of October",
+      "area": "Physics Club President • Math Circle Vice President",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "Graduation: 2023-06",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Languages & Libraries",
+      "keywords": ["Python", "Qiskit", "PennyLane", "PyTorch", "scikit-learn", "Pandas", "NumPy"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": ["AWS", "Docker", "Kubernetes"]
+    },
+    {
+      "name": "Certifications",
+      "keywords": ["Huawei HCIA-AI", "GitHub Foundations", "QSilver", "QNickle", "QBronze"]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Awards & Competitions",
+      "keywords": [
+        "Faculty Nominee, Caspian Cup 2026 (Azerbaijan)",
+        "3rd Place Regionally, WIDS Hackathon",
+        "Kaggle Bronze Medal, CAFA 6 Protein Function Prediction",
+        "Global Nominee, NASA Space Apps",
+        "1st Place, Alexandria Quantum Hackathon",
+        "1st Place, HERE Technologies Hackathon",
+        "2nd Place, Quantathon - AIMS Ghana",
+        "2nd Place, Fawry AI Rising Gen",
+        "3rd Place, Cairo AI Hackathon",
+        "Kaggle Bronze Medal, Image Matching Challenge",
+        "Kaggle Bronze Medal, BirdCLEF+"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "QUBO Model for Energy Planning: Quantum-Enhanced Microgrid Optimization for Rural Electrification in Africa",
+      "publisher": "In Proceedings of GECCO 2026: Quantum Optimization Workshop — Farhani, Y., Fah, H. R. M., Samir, A., Adam, M. Y. E., Mulila, K. M. & Osumanu, A.",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Quantum-Enhanced Microgrid Optimization using a QUBO model."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Optimization of the Evasive-PDFMal Dataset with a Stacking Classifier",
+      "publisher": "Accepted at IUGRC-8 (International Undergraduate Research Conference) — Z. Abdelfattah and A. Samir",
+      "releaseDate": "2024-01-01",
+      "website": "",
+      "summary": ""
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Image Matching Challenge 2025 (Kaggle Bronze Medal)",
+      "category": "3D Reconstruction & Point Cloud Generation Pipeline",
+      "date": "2025-01-01",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Scalable 3D reconstruction pipeline using DINOv2 global descriptors, ALIKED local keypoints, and LightGlue feature matching."
+    },
+    {
+      "name": "Roboflow DETR (rf-detr) Core Contribution",
+      "category": "Open Source Feature Developer",
+      "date": "2026-01-01",
+      "url": "",
+      "description": "Strict Pydantic configuration validation and a custom configuration base class with unit tests for the official Roboflow DETR repository."
+    },
+    {
+      "name": "QuYAML: A Token-Efficient Quantum Circuit Standard",
+      "category": "Python Parser for AI-Driven Quantum Development",
+      "date": "2025-01-01",
+      "url": "",
+      "description": "Token-efficient quantum circuit format (73% fewer tokens than Qiskit JSON) with the official Python parser (v0.2) and a 100%-coverage metamorphic test suite (QFT, VQE)."
+    },
+    {
+      "name": "RbT: Return by Train",
+      "category": "KAN with Self-Improving Loop",
+      "date": "2025-01-01",
+      "url": "",
+      "description": "Kolmogorov-Arnold Network for time series forecasting with a Darwin Gödel Machine-inspired self-improving loop. Top 15% innovation at the 20th NU UGRF (800+ projects, 10+ countries)."
     }
   ]
 }
